@@ -3,8 +3,8 @@ const express       = require("express");
 
 var app             = express();
 
-app.listen(80, () => {
-    console.log("server starts at port 80");
+app.listen(8080, () => {
+    console.log("server starts at port 8080");
 });
 
 app.get("/", (req, res) => {
